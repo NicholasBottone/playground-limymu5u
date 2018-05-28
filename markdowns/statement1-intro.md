@@ -5,4 +5,4 @@ By the end of this course, you'll learn the basics of Java programming, includin
 
 This Java playground was designed for Java beginners by Nicholas Bottone representing FRC Team 5112 The Gongoliers.  Check out The Gongoliers at www.thegongoliers.com.
 
-![Gongoliers Logo, a man rowing a gondola](gondola-logo.png?raw=true "Gongoliers Logo")
+![Gongoliers Logo, a man rowing a gondola](https://github.com/NicholasBottone/playground-limymu5u/blob/master/gondola-logo.png?raw=true "Gongoliers Logo")
