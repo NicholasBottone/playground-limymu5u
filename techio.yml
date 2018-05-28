@@ -1,6 +1,6 @@
 title: 'Java I: The Java Menace'
 plan:
 - title: Introduction
-  statement: statement1-intro.md
+  statement: markdowns/statement1-intro.md
 - title: Hello World
-  statement: statement2-helloworld.md
+  statement: markdowns/statement2-helloworld.md
