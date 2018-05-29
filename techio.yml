@@ -4,3 +4,9 @@ plan:
   statement: markdowns/statement1-intro.md
 - title: Hello World
   statement: markdowns/statement2-helloworld.md
+- title: Hello World Review
+  statement: markdowns/statement2-review.md
+- title: Variables
+  statement: markdowns/statement3-variables.md
+- title: Variables Review
+  statement: markdowns/statement3-review.md
