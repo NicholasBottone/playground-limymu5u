@@ -3,6 +3,10 @@
 Let's jump right in and create your first program!
 It can seem a little bit overwhelming at first, but don't worry, you'll be guided through the process step by step.
 
+## The Goal
+
+The goal of the application that we about to write is very simple.  We are going to create a Java class and method that will print a custom message back to the user after being run.  A Java Class is a file containing multiple pieces of code.  You can have many classes in an applications, but for this simple project, we'll just have one.  A Java method is a script that the programmer can call to run a predefined set of tasks and procedures.  We'll be creating a method that greets the user after running the command.
+
 ## Creating a class
 
 ```java
