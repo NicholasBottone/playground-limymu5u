@@ -6,13 +6,13 @@ It can seem a little bit overwhelming at first, but don't worry, you'll be guide
 ## Creating a class
 
 ```java
-public class Robot {
+public class Main {
   
 }
 ```
 
-The very first thing we'll need to do is create a Java class.  For the sake of simplicity, let's name our class `Robot`.
-What you'll notice is that the Robot class has two **modifiers** in front of it: `public` and `class`.
+The very first thing we'll need to do is create a Java class.  For the sake of simplicity, let's name our class `Main`.
+What you'll notice is that the Main class has two **modifiers** in front of it: `public` and `class`.
 
 The `class` modifier lets the computer know that we are about to start defining a class object.
 All of our code goes inside of a class object.  You can create many, many class objects in more complex programs, but we'll get to that later.
@@ -23,13 +23,13 @@ You can also use the `private` modifier, which means the code in this class cann
 
 You'll notice that after declaring the class, we open and close these things called **curly brackets**.  `{ }`
 You'll be using curly brackets often when coding in Java, so get used to them.
-The curly brackets define what code is within an object.  In this case, all the code within the curly brackets belongs to the Robot class.
-There is no code within the curly brackets yet, so that means that no code belongs to the Robot class yet.  Let's change that.
+The curly brackets define what code is within an object.  In this case, all the code within the curly brackets belongs to the Main class.
+There is no code within the curly brackets yet, so that means that no code belongs to the Main class yet.  Let's change that.
 
 ## Adding the main method
 
 ```java
-public class Robot {
+public class Main {
   
   public static void main(String[] args) {
     
@@ -38,7 +38,7 @@ public class Robot {
 }
 ```
 
-Right off the bat, you'll notice that we've put something inside of the Robot class.  This piece of code is called a **method**.
+Right off the bat, you'll notice that we've put something inside of the Main class.  This piece of code is called a **method**.
 Methods are placed within classes, and they can hold several lines of code within them.
 In this case, we are creating a method by the name of `main`.
 
@@ -58,7 +58,7 @@ All the code for this method will go inside of this method.  There's nothing in 
 ## Printing to the console
 
 ```java runnable
-public class Robot {
+public class Main {
   
   public static void main(String[] args) {
     
@@ -83,7 +83,7 @@ You should see a message that reads "Greetings, human.  I am a robot.  Hello wor
 This is the same message that is provided as an argument in the `println` method!
 
 When you press the run button, your browser actually calls the method that we just created.  
-If we wanted to do this in code, we could call our code by typing `Robot.main(args);`
+If we wanted to do this in code, we could call our code by typing `Main.main(args);`
 
 ### **Try changing the message!**
 
