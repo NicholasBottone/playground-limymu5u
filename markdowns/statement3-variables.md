@@ -52,7 +52,7 @@ Numbers are slightly more complex to store in variables, since there are several
 The most basic numeral variable is an integer (`int`).  An `int` variable can be positive or negative, as long as it is a whole number and has no decimal places.  There is technincally a limit to the size of the number that an integer variable can hold, but it is so massive that you don't normally have to worry about it.  The integer variable can hold numbers from -2^31 to 2^31 - 1 (-2,147,483,648 to 2,147,483,647).
 
 ```java runnable
-// autofold {
+// { autofold
 public class Main {
   public static void main(String[] args) {
     // }
@@ -63,7 +63,7 @@ public class Main {
     System.out.println(num1);
     System.out.println(num2);
     System.out.println(sum);
-    // autofold {
+    // { autofold
   }
 }
 // }
@@ -71,23 +71,63 @@ public class Main {
 
 The int can be declared and set in a similar way to the boolean.  Simply type the type of variable (`int`) and then the name of variable you'd like to create (`num1`).  Don't forget the semicolon.  To set the value, simply type an equals sign `=` followed by the desired value.
 
-Notice that you can perform mathematical operations with int values.  You can use additon (`+`), subtraction (`-`), multiplication (`*`), or division (`/`) to perform mathemtical operations on your numbers.  There are a few more math operations that we'll get into later.
+Notice that you can perform mathematical operations with int values.  You can use addition (`+`), subtraction (`-`), multiplication (`*`), or division (`/`) to perform mathemtical operations on your numbers.  There are a few more math operations that we'll get into later.
 
 Try running the code above and see how it behaves.  Try changing some of the numbers in the code and see how the output changes.  Feel free to experiment with the code and see how it works.
 
 #### double
 
-INCOMPLETE, WILL BE FINISHED LATER
+A complex number which can contain many decimal places is a double (`double`).  A `double` variable can be positive or negative.  Like the `int`, there is also a limit to the size of the number that can be held, and there is also a limit to the number of decimal places the number can go to.  Doubles can be even larger (or smaller) than ints, so you don't have to worry about running out of room.
 
-#### byte
+```java runnable
+// { autofold
+public class Main {
+  public static void main(String[] args) {
+    // }
+    double firstDouble = 1.93;
+    double secondDouble = 8.2;
+    double thirdDouble = firstDouble + secondDouble;
+    double fourthDouble = thirdDouble / 2;
+    
+    System.out.println(firstDouble);
+    System.out.println(secondDouble);
+    System.out.println(thirdDouble);
+    System.out.println(fourthDouble);
+    // { autofold
+  }
+}
+// }
+```
 
-#### short
+The double can be declared in a way similar to the int.  Just type the type of variable (`double`) followed by the name of the variable (`firstDouble`) and ending the line with a semicolon.  Use an equals sign after naming the variable to set the value of the variable, just like the int and boolean.
 
-#### long
+You can also perform mathematical operations with double values, just like with ints.  Use the same operators to add, subtract, multiply, or divide.  Note that when performing division, the double will be more accurate than the int since the double can contain decimals and fractions, while the int cannot.  
 
-#### float
+Try running the code above and see how it behaves.  Try changing some of the numbers and mathematical operators in the code and see how the output changes.  Feel free to experiment with the code and see how it works.
 
 ### char
+
+The `char` is a unique type of variable.  `char` variables can hold one single **character**.  A character is any letter, number, or symbol that can be typed on your keyboard.  A char can hold singular letters like `'A'` or `'B'`, it can hold single-digit numbers like `'2'` or `'5'`, and finally it could hold singular symbols like `'@'` or `'/'`.  It is important to remember that a char can only hold **one character at a time**.  It cannot hold an entire word, phrase, or sentence.
+
+```java runnable
+// { autofold
+public class Main {
+  public static void main(String[] args) {
+    // }
+    char thisIsAChar = 'H';
+    char anotherChar = 'I';
+    char yetAnotherChar = '!';
+    char charsAreCool = ' ';
+    
+    System.out.println(thisIsAChar);
+    System.out.println(anotherChar);
+    System.out.println(yetAnotherChar);
+    System.out.println(charsAreCool);
+    // { autofold
+  }
+}
+// }
+```
 
 ## String
 
