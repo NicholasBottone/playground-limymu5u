@@ -19,7 +19,7 @@ The simplest, most basic type of variable is called a `boolean`.  The boolean va
 The boolean variable is **binary** -- that is, it only has two states.  It is either **on** or it is **off**.  It is either **1** or it is **0**.  `true` or `false`.
 
 ```java runnable
-// autofold {
+// { autofold
 public class Main {
   public static void main(String args) {
   // }
@@ -28,7 +28,7 @@ public class Main {
   
   System.out.println(a);
   System.out.println(b);
-  // autofold {
+  // { autofold
   }
 }
 // }
