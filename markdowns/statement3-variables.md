@@ -21,7 +21,7 @@ The boolean variable is **binary** -- that is, it only has two states.  It is ei
 ```java runnable
 // { autofold
 public class Main {
-  public static void main(String args) {
+  public static void main(String[] args) {
   // }
   boolean a = false;
   boolean b = true;
