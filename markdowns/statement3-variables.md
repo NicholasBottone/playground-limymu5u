@@ -6,7 +6,7 @@ You may recall on the last activity we briefly mentioned **variables**.  We're g
 
 A **variable** is a value that can change, depending on conditions or on information passed to the program. Typically, a program consists of instructions that tell the computer what to do and data that the program uses when it is running.
 
-You can think of a variable as a container or bin that can hold hold little pieces of information and data.  A variable could hold a **number**, a **letter*, a **word**, or a **sentence**.
+You can think of a variable as a container or bin that can hold hold little pieces of information and data.  A variable could hold a **number**, a **letter**, a **word**, or a **sentence**.
 
 ## Types of Primative Variables
 
