@@ -6,7 +6,7 @@ You may recall on the last activity we briefly mentioned **variables**.  We're g
 
 A **variable** is a value that can change, depending on conditions or on information passed to the program. Typically, a program consists of instructions that tell the computer what to do and data that the program uses when it is running.
 
-You can think of a variable as a container or bin that can hold hold little pieces of information and data.  A variable could hold a **number**, a **letter**, a **word**, or a **sentence**.
+You can think of a variable as a container or bin that can hold hold little pieces of information and data.  A variable could hold a **number**, a **letter**, a **word**, a **sentence**, or plenty of other types of data.
 
 ## Types of Primative Variables
 
@@ -107,7 +107,9 @@ Try running the code above and see how it behaves.  Try changing some of the num
 
 ### char
 
-The `char` is a unique type of variable.  `char` variables can hold one single **character**.  A character is any letter, number, or symbol that can be typed on your keyboard.  A char can hold singular letters like `'A'` or `'B'`, it can hold single-digit numbers like `'2'` or `'5'`, and finally it could hold singular symbols like `'@'` or `'/'`.  It is important to remember that a char can only hold **one character at a time**.  It cannot hold an entire word, phrase, or sentence.
+The `char` is a unique type of variable.  `char` variables can hold one single **character**.  A character is any letter, number, or symbol that can be typed on your keyboard.  A `char` can hold singular letters like `'A'` or `'B'`, it can hold single-digit numbers like `'2'` or `'5'`, and finally it could hold singular symbols like `'@'` or `'/'`.  It is important to remember that a `char` can only hold **one character at a time**.  It cannot hold an entire word, phrase, or sentence.
+
+The `char` can be defined using single quotes. (`'*'`)
 
 ```java runnable
 // { autofold
@@ -129,7 +131,39 @@ public class Main {
 // }
 ```
 
+### Other primatives
+
+There are a few other types of primative variables, although they are rarely used and are not very important for us to learn right now.  These primative variable types include the `byte`, `short`, `float`, and `long`.  These each can hold numberals, just like the int and double, but they each have different limitations for the smallest and largest numbers that they can hold.  A `float` can hold a low accuracy decimal, and the others each hold integers.
+
 ## String
+
+A `String` is a very important type of variable.  Notice that the `String` variable is not a primative variable.  Any variable that begins with a capital letter is not of the primative type.  Nonprimative variables belong to classes.  Somewhere in the Java language library, there is a class that defines the String variable.  We do not have to worry about the code that makes the String work, because it is already done for us.  Since the nonprimative `String` is defined by a class, it cna have methods applied to it.  These methods can check or manipulate the data within the variable.
+
+A `String` is important because it can hold any form of text.  This text could potentially be a number, a group of numbers, a word, a phrase, a sentence, or a paragraph.  **There is no limit to the size of a `String` variable**, therefore, you could potentially store the contents of an entire novel within a `String` variable if you so desired.  The only limitation to the size of a `String` is the amount of memory in the computer, which is not usually something you have to worry about.
+
+The `String` can hold special characters just like the `char`, and it can even be empty.  To define a `String`, surround it with double quotes (quotation marks).  (`"HOORAY!"`)
+
+```java runnable
+// { autofold
+public class Main {
+    public static void main(String[] args) {
+    // }
+        String myString = "This is my string.";
+        String yourString = "This is your string.";
+        String emptyString = "";
+        String paragraph = "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible.";
+        
+        System.out.println(myString);
+        System.out.println(yourString);
+        System.out.println(emptyString);
+        System.out.println(paragraph);
+        // { autofold
+    }
+}
+// }
+```
+
+## Arrays
 
 ## Other non-primative variables
 
