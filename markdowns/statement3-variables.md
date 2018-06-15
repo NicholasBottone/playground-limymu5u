@@ -63,7 +63,7 @@ public class Main {
     System.out.println(num1);
     System.out.println(num2);
     System.out.println(sum);
-    // { autofold
+// { autofold
   }
 }
 // }
@@ -93,7 +93,7 @@ public class Main {
     System.out.println(secondDouble);
     System.out.println(thirdDouble);
     System.out.println(fourthDouble);
-    // { autofold
+// { autofold
   }
 }
 // }
@@ -125,7 +125,7 @@ public class Main {
     System.out.println(anotherChar);
     System.out.println(yetAnotherChar);
     System.out.println(charsAreCool);
-    // { autofold
+// { autofold
   }
 }
 // }
@@ -157,7 +157,7 @@ public class Main {
         System.out.println(yourString);
         System.out.println(emptyString);
         System.out.println(paragraph);
-        // { autofold
+// { autofold
     }
 }
 // }
