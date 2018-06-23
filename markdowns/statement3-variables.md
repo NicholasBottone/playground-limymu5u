@@ -141,7 +141,7 @@ A `String` is a very important type of variable.  Notice that the `String` varia
 
 A `String` is important because it can hold any form of text.  This text could potentially be a number, a group of numbers, a word, a phrase, a sentence, or a paragraph.  **There is no limit to the size of a `String` variable**, therefore, you could potentially store the contents of an entire novel within a `String` variable if you so desired.  The only limitation to the size of a `String` is the amount of memory in the computer, which is not usually something you have to worry about.
 
-The `String` can hold special characters just like the `char`, and it can even be empty.  To define a `String`, surround it with double quotes (quotation marks).  (`"HOORAY!"`)
+The `String` can hold special characters just like the `char`, and it can even be empty.  To define a `String`, surround text with double quotes (quotation marks).  (`"HOORAY!"`)
 
 ```java runnable
 // { autofold
@@ -164,6 +164,8 @@ public class Main {
 ```
 
 ## Arrays
+
+Arrays are another interesting type of variable.  Arrays are lists made up of several different variables of the same type.  If you have a list of several `int`s that you need to store, you could store them together in an `int` array.  Arrays don't just work for `int`s, they work for any variable, including `String`s and others.
 
 ## Other non-primative variables
 
