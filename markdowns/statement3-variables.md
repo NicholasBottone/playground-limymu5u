@@ -167,6 +167,32 @@ public class Main {
 
 Arrays are another interesting type of variable.  Arrays are lists made up of several different variables of the same type.  If you have a list of several `int`s that you need to store, you could store them together in an `int` array.  Arrays don't just work for `int`s, they work for any variable, including `String`s and others.
 
+The array notation in Java involves using block brackets (`[]`).  When declaring a variable, simply use empty block brackets after the variable type that you would like to store inside the array.  For example, to create an array of `int`s called `listOfNumbers`, you woult type `int[] listOfNumbers;`.  To create an array of `char`s called `alphabet`, you would type `char[] alphabet;`.
+
+When defining the contents of the array, you use block brackets as well.  After the equals sign, use block brackets, and put the contents of your array inside the brackets, with each entry separated by commas.  For example, if you want an array with three separate `int` values, you would type `int[] myArray = [1, 2, 3];`.  If you want an array with five different `String` values, you would type `String[] anotherArray = ["This ", "is ", "an ", "array ", "example!"];`.
+
+After creating an array, you may want to access some of its contents individually.  For example, if you have the given `int` array `[14, 9, 6, 27]` and you need to access the third value (`6`), you would type the name of the variable followed by the index of the listing in brackets.  In this case, you would type `myArray[2]`.  You may ask, why do I use 2 instead of 3... after all, I am accessing the third value.  Java is a **zero-indexed** language, meaning that the first index is always zero, the second index is always one, and so on.  Zero is the first number in Java, not one.  It is very important to remember this when working with arrays and lists.
+
+```java runnable
+// { autofold
+public class Main {
+    public static void main(String[] args) {
+    // }
+        int[] myIntArray = [42, 28, 16, 9];
+        double[] myDoubleArray = [1.9, 3.2, 99.4628];
+        String[] myStringArray = ["Gongoliers", "Robotics", "5112"];
+        
+        System.out.println(myIntArray[1]);
+        System.out.println(myDoubleArray[0]);
+        System.out.println(myStringArray[2]);
+// { autofold
+    }
+}
+// }
+```
+
+Try running the code above and see how it behaves.  Pay close attention to how the indexes work.  Try changing some of the values and indexes in the code and see how the output changes.  Feel free to experiment with the code and see how it works.  Beware that if you attempt to reference a non-existent value in the array (trying to find `myIntArray[10]` when there are only four values), you will invoke an error.
+
 ## Other non-primative variables
 
 # Phew!
